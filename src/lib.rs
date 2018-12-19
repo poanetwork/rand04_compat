@@ -1,6 +1,8 @@
 //! # Wrappers for compatibility with rand 0.4
 
-use std::marker::PhantomData;
+#![no_std]
+
+use core::marker::PhantomData;
 
 use rand::Rng;
 pub use rand04;
